@@ -1,0 +1,67 @@
+/*
+Site Name: BETA
+Author: Kevin Oleary
+
+Stylesheet: Variables
+*/
+
+/* ---- COLORS ---- */
+
+$alert-yellow:        #FFA400;
+$alert-red:           #FF5151;
+$alert-green:         #A5FA67;
+$alert-blue:          #7BB5EE;
+
+$black:               #111111;
+$white:               #F5F5F5;
+
+$light-gray:          #F8F8F8;
+$dark-gray:			      #777777;
+$gray:                #EEEEEE;
+$text-color:          #DDDDDD;
+$headingColor:        #EEEEEE;
+$meta-gray:           #BBBBBB;
+
+$tan:                 #ECEEE5;
+
+$green:               #7DD667;
+
+$beta-teal:        	  #00FFDD;
+$blue:             	  #7BB5EE;
+
+$link-color:          $beta-teal;
+$link-hover:          darken($link-color, 9%);
+
+$border-color:        #555555;
+$disabled-gray:       #CFCFCF;
+
+
+$baseBackgroundColor: #001121;
+$cardBackgroundColor: #1D2E40;
+$menuBackgroundColor: #000000;
+
+/* Layout */
+$blockMargin:         0 1rem 1rem 0;
+$textMargin:          0 1.5rem 1rem 0;
+
+/* Effects */
+$cardBorderRadius:    8px;
+$shadowDown:          0 5px 5px rgba(0,0,0,.5);
+$shadowUp:            5px 0 5px rgba(0,0,0,.5);
+
+$one-x-scaling-unit:  calc(1rem + 1vw);
+$two-x-scaling-unit:  calc(1rem + 2vw);
+
+$team-loader:         url('../images/generic_headshot_blur.png');
+
+// Text sizes
+$text-normal:         18px;
+$text-small:		      14px;
+$text-tiny:			      12px;
+
+$lightWeight:         300;
+$normalWeight:        400;
+$boldWeight:          600;
+
+$radius: 			        4px;
+$circle:			        50%;
