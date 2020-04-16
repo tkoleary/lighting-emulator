@@ -27,7 +27,7 @@ body * {
   height: 100vh;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-around;
   overflow: hidden;
 
   img {
@@ -50,7 +50,7 @@ label.button {
   display: block;
   height: 40px;
   width: auto;
-  padding: 0 20px;
+  padding: 0 5px;
   text-align: center;
   font-family: "Helvetica Neue","Helvetica","Myriad",sans-serif;
   font-weight: 400;

@@ -1,5 +1,10 @@
 
+let labelEl = document.querySelector('.button');
 
-shadesEl.classList.add('hidden');
+labelEl.classList.add('hide');
 
-console.log(shadesEl.classList.contains('hidden')); // true
+console.log(shadesEl.classList.contains('hide')); // true
+
+coolButton.addEventListener('click', () => {
+  labelEl.classList.toggle('hide');
+});
