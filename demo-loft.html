@@ -1,37 +1,79 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="library/css/style.css" media="all" />
-  <script src="library/js/demo.js"></script>
 </head>
 <body>
-  <div class="container mobile">
-    <input id="img-1-mob" type="radio" class="show" name="showhide" checked></input>
-    <input id="img-2-mob" type="radio" class="hide" name="showhide"></input>
-    <label for="img-1-mob" class="button show">One</label>
-    <label for="img-2-mob" class="button hide">Two</label>
-    <label for="img-3-mob" class="button">Three</label>
-    <label for="img-4-mob" class="button">Four</label>
-    <label for="img-5-mob" class="button">Five</label>
-    <img id="img-1" class="shown" src="library/images/austin-loft/Mobile/Loft_Mobile_01.png" />
-    <img id="img-2" class="hidden" src="library/images/austin-loft/Mobile/Loft_Mobile_02.png" />
-    <img id="img-3" class="hidden" src="library/images/austin-loft/Mobile/Loft_Mobile_03.png" />
-    <img id="img-4" class="hidden" src="library/images/austin-loft/Mobile/Loft_Mobile_04.png" />
-    <img id="img-5" class="hidden" src="library/images/austin-loft/Mobile/Loft_Mobile_05.png" />
+  <div id="em1" class="emulator">
+    <h1>Emulator title</h1>
+    <div id="em1-rm-1" class="emulator-room">
+      <div class="scene-set mobile">
+        <div id="em1-rm1-scn1-m">
+          <a href="#" class="button first">One</a>
+          <img class="scene" src="library/images/austin-loft/Mobile/Loft_Mobile_01.png" />
+        </div>
+        <div id="em2-rm2-scn2-m">
+          <a href="#" class="button">Two</a>
+          <img class="scene" src="library/images/austin-loft/Mobile/Loft_Mobile_02.png" />
+        </div>
+        <div id="em3-rm3-scn3-m">
+          <a href="#" class="button">Three</a>
+          <img class="scene" src="library/images/austin-loft/Mobile/Loft_Mobile_03.png" />
+        </div>
+        <div id="em4-rm4-scn4-m">
+          <a href="#" class="button">Four</a>
+          <img class="scene" src="library/images/austin-loft/Mobile/Loft_Mobile_04.png" />
+        </div>
+        <div id="em5-rm5-scn5-m">
+          <a href="#" class="button">Five</a>
+          <img class="scene" src="library/images/austin-loft/Mobile/Loft_Mobile_05.png" />
+        </div>
+      </div>
+      <div class="scene-set tablet">
+        <div id="em1-rm1-scn1-t">
+          <a href="#" class="button first">One</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_01.png" />
+        </div>
+        <div id="em1-rm1-scn2-t">
+          <a href="#" class="button">Two</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_02.png" />
+        </div>
+        <div id="em1-rm1-scn3-t">
+          <a href="#" class="button">Three</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_03.png" />
+        </div>
+        <div id="em1-rm1-scn4-t">
+          <a href="#" class="button">Four</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_04.png" />
+        </div>
+        <div id="em1-rm1-scn5-t">
+          <a href="#" class="button">Five</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_05.png" />
+        </div>
+      </div>
+      <div class="scene-set desktop">
+        <div id="em1-rm1-scn1-d">
+          <a href="#" class="button first">One</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_01.png" />
+        </div>
+        <div id="em1-rm1-scn2-d">
+          <a href="#" class="button">Two</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_02.png" />
+        </div>
+        <div id="em1-rm1-scn3-d">
+          <a href="#" class="button">Three</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_03.png" />
+        </div>
+        <div id="em1-rm1-scn4-d">
+          <a href="#" class="button">Four</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_04.png" />
+        </div>
+        <div id="em1-rm1-scn5-d">
+          <a href="#" class="button">Five</a>
+          <img class="scene" src="library/images/austin-loft/Desktop/Loft_Desktop_05.png" />
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="container desktop">
-    <input id="img-1-dsk" type="radio" class="show" name="showhide" checked></input>
-    <input id="img-2-dsk" type="radio" class="hide" name="showhide"></input>
-    <label for="img-1-dsk" class="button show">One</label>
-    <label for="img-2-dsk" class="button hide">Two</label>
-    <label for="img-3-dsk" class="button">Three</label>
-    <label for="img-4-dsk" class="button">Four</label>
-    <label for="img-5-dsk" class="button">Five</label>
-    <img id="img-1" class="shown" src="library/images/austin-loft/Desktop/Loft_Desktop_01.png" />
-    <img id="img-2" class="hidden" src="library/images/austin-loft/Desktop/Loft_Desktop_02.png" />
-    <img id="img-3" class="hidden" src="library/images/austin-loft/Desktop/Loft_Desktop_03.png" />
-    <img id="img-4" class="hidden" src="library/images/austin-loft/Desktop/Loft_Desktop_04.png" />
-    <img id="img-5" class="hidden" src="library/images/austin-loft/Desktop/Loft_Desktop_05.png" />
-  </div>
-  <div class="container"><h3>More Content</h3></div>
+  <div class="container"><h3>More Content below the fold</h3></div>
 </body>
 </html>
