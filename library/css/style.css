@@ -408,23 +408,15 @@ span.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
   font-style: italic; }
 
-/*
-Site Name: BETA
-Author: Kevin Oleary
-
-Stylesheet: Variables
-*/
-/* ---- COLORS ---- */
-/* Layout */
-/* Effects */
+/* Stylesheet: Variables */
 /* ketra demo styles */
 body {
-  background-color: #000; }
+  background-color: #111111; }
 
 body * {
   box-sizing: border-box;
-  font-family: "Helvetica Neue","Helvetica","Myriad",sans-serif;
-  color: #fff; }
+  font-family: "Helvetica Neue", "Helvetica", "Myriad", sans-serif;
+  color: #F5F5F5; }
 
 a:visited {
   color: #999; }
@@ -440,7 +432,8 @@ a:visited {
     padding: calc(20px + 3vw);
     font-weight: 300;
     font-size: calc(30px + 1vw);
-    color: #fff;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
+    color: #F5F5F5;
     z-index: 1; }
 
 .emulator-room {
@@ -477,19 +470,19 @@ a.button {
   width: auto;
   padding: 0 5px;
   text-align: center;
-  font-family: "Helvetica Neue","Helvetica","Myriad",sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Myriad", sans-serif;
   font-weight: 400;
   letter-spacing: .1em;
   line-height: 40px;
-  color: #999;
+  color: #999999;
   text-transform: uppercase;
-  background-color: #000;
+  background-color: #111111;
   text-decoration: none;
   cursor: pointer; }
   a.button:visited {
-    color: #999; }
+    color: #999999; }
   a.button:active, a.button:focus, a.button:hover {
-    color: #fff;
+    color: #F5F5F5;
     outline: none; }
 
 .scene-set.mobile .scene,
@@ -497,12 +490,12 @@ a.button {
 .scene-set.desktop .scene {
   z-index: 0;
   opacity: 0;
-  transition: opacity 3s ease-in-out; }
+  transition: opacity 2500ms cubic-bezier(0.18, 0.11, 0.425, 0.92); }
 
 .scene-set.mobile a.button,
 .scene-set.tablet a.button,
 .scene-set.desktop a.button {
-  transition: color .3s ease-in-out; }
+  transition: all 500ms cubic-bezier(0.18, 0.11, 0.645, 0.96); }
 
 .scene-set.mobile .button.first ~ .scene,
 .scene-set.mobile .button:focus ~ .scene,
